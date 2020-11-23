@@ -34,7 +34,6 @@ class Connection:
 
         try:
             tnsnames = open(path_tns_admin, "r")
-            #tnsnames = open("C:/Users/DKALAMAR/Desktop/test_tns.txt", "r")
         except IOError as err:
             raise IOError("Cannot find tnsnames.ora in TNS_ADMIN location")
         else:
