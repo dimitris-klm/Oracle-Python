@@ -11,4 +11,4 @@
 * get_service_name()
 * get_dsn()
 
-#### Note that if the TNS_ADMIN environment variable is not set or the user wnats to use a different file then there is the option of passing the path of the .ora file when instantiating the class.
+#### Note that if the TNS_ADMIN environment variable is not set or if the user wants to use a different file, then there is the option of passing the path of the .ora file when instantiating the class.
